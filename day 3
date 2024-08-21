@@ -1,0 +1,35 @@
+fun main(){
+    /*val numbers= arrayOf(1,2,3,4,5)
+    val firstnumber=numbers[0]
+    //println(firstnumber)
+    val works= arrayOf("apple","mango","banana")
+    val first=works[0]
+    //print(first)
+    val squares=Array(6){i->i*i}
+    val value=squares[3]
+    //println(value)
+    val i=2
+
+    for (num in numbers){
+    println(squares[num])}*/
+
+    /*val array= arrayOf(arrayOf(1,2,3), arrayOf(4,5,6), arrayOf(7,8,9))
+    for (subArray in array) {
+        for (element in subArray) {
+            print("$element ")
+        }
+        println("")
+    }*/
+
+    /*val x:Int=100
+    val y:Long=x.toLong()
+    print(y)*/
+
+    /*val a="hi"
+    val b=a as String
+    println("$b")
+    val c=a as? Int
+    println("$c")*/
+    
+
+}
