@@ -1,0 +1,39 @@
+fun main(){
+    /*var a=40
+    var b=10
+    var result="sum of $a and $b is ${a+b}"
+    print(result)*/
+
+    /*val letter:Char
+    letter='A'
+    print("$letter")
+    print("\n")
+    print("\$")
+    print("\\")*/
+
+    /*print("""pavan
+        |pavan
+        |pavan
+        |pavan
+        |pavan
+    """.trimMargin())
+
+    print("""pavan
+        |         pavan
+        |              pavan
+        |                   pavan
+    """.trimMargin())*/
+
+    //print("\t pavan \t \n pavan \t pavan \n \t pavan \t \n")
+
+    /*var array= arrayOf(1,2,3,4,5)
+    print(array[9])*/
+
+    /*var words:Array<String>= arrayOf("kotlin")
+    print(words)*/
+
+    /*val square=Array(5){i->i*i}
+    print(square)*/
+
+    
+}
