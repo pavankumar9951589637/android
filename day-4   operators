@@ -1,0 +1,44 @@
+fun main(){
+    //operators
+    //Arithmetic operators
+    var a=10
+    val b=30
+    
+
+    println("sum of $a and $b is ${a+b}")
+    println(a.plus(b))
+    println(a.minus(b))
+    println(a.times(b))
+    println(a.div(b))
+    println(a.rem(b))
+
+
+    //relational operators
+    println(a>b)
+    println(a<b)
+    println(a>=b)
+    println(a<=b)
+    println(a==b)
+    println(a!=b)
+
+    //assignment operators
+    a=a+b
+    println("$a")
+    a=a-b
+    println("$a")
+    a=a*b
+    println("$a")
+    a=a/b
+    println("$a")
+    a=a%b
+    println("$a")
+
+    //unary operators
+    println("${+a}")
+    println("${-a}")
+    println("${++a}")
+    println("${a++}")
+    println("${a--}")
+    
+    
+}
