@@ -1,0 +1,86 @@
+fun main(){
+    //control flow statements
+   val temperature=25
+    if (temperature>20){
+        println("It's a warm day")
+    }
+
+    val age=18
+    if(age>=18){
+        print("you are adult")
+    }
+    else{
+        print("not an adult")
+    }
+
+    val marks=95
+    if(marks>=90){
+        println("A grade")
+    }
+    else if(marks>=85 && marks<90){
+        println("B grade")
+    }
+    else if(marks>=70 && marks<85){
+        println("C grade")
+    }
+    else{
+        println("D grade")
+    }
+
+//calculator
+    val a=4
+    val b=0
+    val input="/"
+    if(input=="+"){
+        println("${a+b}")
+    }
+    else if(input=="-"){
+        println("${a-b}")
+    }
+    else if(input=="*"){
+        println("${a*b}")
+    }
+    else if(input=="/"){
+        if(b!=0){
+        println("${a/b}")}
+        else{
+            println("divided by zero is not possible")
+        }
+    }
+
+//Age group
+    val age1=70
+    if(age1<13){
+        println("child")
+    }
+    else if(age1 in 13..19){
+        println("teenager")
+    }
+    else if(age1 in 20..64){
+        println("adult")
+    }
+    else{
+        println("senior")
+    }
+
+    //day of the week
+    val dayofweek=7
+    val dayname=when(dayofweek){
+        1->"monday"
+        2->"Tuesday"
+        3->"wednesday"
+        4->"Thuresday"
+        5->"Friday"
+        6->"saturday"
+        7->"sunday"
+        else->"invalid day"
+    }
+    println("the day of the week is $dayname")
+
+
+    val number =9
+    when {
+        number%2==0->println("$number is even")
+        number%2!=0->println("$number is odd")
+        else ->println("un expected number")
+    }
