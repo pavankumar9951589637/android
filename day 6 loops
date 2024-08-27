@@ -1,0 +1,64 @@
+fun main(){
+      //for loop
+    for(i in 1..5){
+        println(i)                          //output:1 2 3 4 5
+    }
+
+    for (i in 1 until 5){
+        println(i)                          //output:1 2 3 4
+    }
+
+    //calling elements in the array
+    val num= arrayOf(1,2,3,4,5)
+    for (i in num){
+        println(i)
+    }
+
+    //reversing
+    for(i in 5 downTo 1){
+        println(i)
+    }
+
+    //step wise iteration
+    for(i in 1..10 step 2){
+        println(i)
+    }
+
+    //sum of elements upto a particular range
+    var sum=0
+    for(i in 1..10){
+        sum=sum+i;
+    }
+    println(sum)
+
+
+    //iterating the elements inside list
+    var fruits= listOf("apple","grapes","mango","banana")
+    for (i in fruits.indices step 2){
+        println(fruits[i])
+    }
+    for (i in fruits){
+        println(i)
+    }
+
+    //while
+    var i=5
+    while(i>0){
+        println("value is :$i")
+        i--
+    }
+
+    //do while
+    var j=5
+    do{
+        println("$j")
+        j--
+    }while(j>0)
+
+    var k=1
+    do{
+        println(k)
+        k++
+    }while(k<=5)
+
+}
