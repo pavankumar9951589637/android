@@ -1,0 +1,14 @@
+fun main(){
+    println(foriegnheat(100))
+    println(celciustemp(100))
+
+
+}
+fun foriegnheat(celcius:Int):Int{
+    val temp=((celcius*9)/5)+32
+    return temp
+}
+fun celciustemp(foreign:Int):Int{
+    val temp=(((foreign-32)*5))/9
+    return temp
+}
