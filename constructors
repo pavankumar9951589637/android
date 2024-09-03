@@ -1,0 +1,74 @@
+//secondary constructor
+/*class Person{
+    var name:String
+    var age:Int
+    constructor(x:String,y:Int){
+        this.name=x
+        this.age=y
+    }
+    constructor(x:String){
+        this.name=x
+        this.age=0
+    }
+    constructor(){
+        this.name="RAHUL"
+        this.age=32
+
+    }
+    fun intro(){
+        println("my name is $name and age is $age")
+    }
+}
+
+fun main(){
+    //constructor
+    //primary constructor is defined write after class name
+    //secondary constructor is used when object is created
+    val a=Person("Riya",22)
+    a.intro()
+    val b=Person()
+    b.intro()
+    val c=Person("Heena")
+    c.intro()
+
+}
+
+//primary constructor
+class Person(var name:String,var age:Int){
+    constructor(x:String):this(){
+        this.name=x
+        this.age=0
+    }
+    constructor():this("rahul",50)
+    fun intro(){
+        println("my name is $name and age is $age")
+    }
+}
+fun main(){
+    val a=Person("Riya",22)
+    a.intro()
+    val b=Person()
+    b.intro()
+    val c=Person("Heena")
+    c.intro()
+}
+
+open class Rectangle(val a:Double,val b:Double){
+    fun area():Double {
+        return a * b
+    }
+    open fun display(){
+        println("area of rectangle with dimensions $a * $b is ${area()}")
+    }
+}
+class Square(side:Double):Rectangle(side,side){
+    override fun display() {
+        println("area of square with side $a is ${area()}")
+    }
+}
+fun main(){
+    val myRectangle=Rectangle(4.0,5.0)
+    myRectangle.display()
+    val mySquare=Square(3.0)
+    mySquare.display()
+}*/
