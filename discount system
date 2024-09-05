@@ -1,0 +1,20 @@
+fun main(){
+    print("enter the total amount:")
+    var totalamount= readln().toDouble()
+    print("Enter 1 if you have membership or enter 0: ")
+    var membership=readln().toInt()
+
+    if(totalamount>=1000 && membership==1){
+        print("you got 20% discount and you need to pay:")
+        totalamount=totalamount*0.8
+        print(totalamount)
+    }
+    else if (totalamount>=1000 && membership==0){
+        print("you got 10% discount and you need to pay:")
+        totalamount=totalamount*0.9
+        print(totalamount)
+    }
+    else{
+        print("no discount")
+    }
+}
