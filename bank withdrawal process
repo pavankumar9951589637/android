@@ -1,0 +1,31 @@
+fun main(){
+    var amount=1000
+    print("Enter 1 to check balance and")
+    print("Enter 2 to withdraw money:")
+
+    var need= readln().toInt()
+    if(need==1){
+        println("balance:$amount")
+    }
+    else if(need==2){
+        println("enter the amount you want to withdraw:")
+        var needed= readln().toInt()
+        if(needed<=amount){
+            println("enter 1 to processed else enter 2")
+            var user= readln().toInt()
+            if(user==1){
+                println("withdrawal success")
+                amount=amount-needed
+                println("balance:$amount")
+            }
+            else{
+                println("thank you")
+            }
+        }
+        else{
+            println("not enough money in bank")
+        }
+
+
+    }
+}
