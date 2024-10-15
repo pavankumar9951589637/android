@@ -1,0 +1,24 @@
+package com.example.ca
+
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class flower : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_flower)
+        var a=findViewById<EditText>(R.id.editTextText3)
+        var btn=findViewById<Button>(R.id.button2)
+        btn.setOnClickListener {
+
+        }
+    }
+}
+
+
